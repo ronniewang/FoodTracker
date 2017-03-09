@@ -13,6 +13,7 @@
 		A20466E81E7131180013F35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20466E71E7131180013F35D /* Assets.xcassets */; };
 		A20466EB1E7131180013F35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20466E91E7131180013F35D /* LaunchScreen.storyboard */; };
 		A20466F61E7131180013F35D /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20466F51E7131180013F35D /* FoodTrackerTests.swift */; };
+		A20467011E7168080013F35D /* RatingControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20467001E7168080013F35D /* RatingControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A20466F11E7131180013F35D /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20466F51E7131180013F35D /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		A20466F71E7131180013F35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20467001E7168080013F35D /* RatingControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A20466E01E7131180013F35D /* AppDelegate.swift */,
 				A20466E21E7131180013F35D /* ViewController.swift */,
+				A20467001E7168080013F35D /* RatingControll.swift */,
 				A20466E41E7131180013F35D /* Main.storyboard */,
 				A20466E71E7131180013F35D /* Assets.xcassets */,
 				A20466E91E7131180013F35D /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20467011E7168080013F35D /* RatingControll.swift in Sources */,
 				A20466E31E7131180013F35D /* ViewController.swift in Sources */,
 				A20466E11E7131180013F35D /* AppDelegate.swift in Sources */,
 			);
